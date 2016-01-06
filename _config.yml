@@ -1,14 +1,26 @@
-layout_spectrum: 0.7297872
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.2425532
 color:
-  saturation: 0.7021171
+  saturation: 1
   brandStrength: 0.2566725
-  lightness: 0.6947367
+  lightness: 1
   brandColors:
     - '#BDBBBE'
     - '#CC7093'
     - '#10CDC0'
     - '#1D1515'
     - '#7F9BB3'
-  rhythmicContrast: 0.1956322
-typography_spectrum: 0.2425532
+  rhythmicContrast: 0.3319149
+layout_spectrum: 0.7297872
 name: Create A Living
